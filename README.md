@@ -17,8 +17,34 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 
 STEP 5:Include Necessary parameters in each functions.
 
-# Coding and Output:
- Include the necessary coding and corresponding screenshots
+# Coding:
+
+```
+import seaborn as sns
+import matplotlib.pyplot as plt
+df=sns.load_dataset("iris")
+df.head()
+corr_matrix=df.select_dtypes(include=["float64"]).corr()
+sns.heatmap(corr_matrix, annot=True, cmap="coolwarm")
+plt.show()
+sns.jointplot(x='sepal_length',y='sepal_width',data=df,kind='hex')
+sns.jointplot(x='sepal_length',y='sepal_width',data=df,kind='reg')
+sns.pairplot(df)
+sns.pairplot(df,hue='species')
+sns.distplot(df['sepal_width'])
+sns.distplot(df['petal_length'],kde=False,bins=10)
+sns.countplot(x='species',data=df)
+sns.countplot(y='species',data=df)
+sns.barplot(x='sepal_length',y='sepal_width',data=df)
+sns.boxplot(x='sepal_length',y='sepal_width',data=df)
+sns.boxplot(x='sepal_length',y='sepal_width',data=df,palette='rainbow')
+sns.boxplot(data=df,orient='v')sns.boxplot(x='sepal_length',y='sepal_width',data=df,hue='species')
+sns.violinplot(x='sepal_length',y='sepal_width',data=df,palette='rainbow')
+
+```
+# Output:
+
+
 
 # Result:
  Include your result here
