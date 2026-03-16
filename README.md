@@ -44,7 +44,22 @@ sns.violinplot(x='sepal_length',y='sepal_width',data=df,palette='rainbow')
 ```
 # Output:
 
-
+![alt text](<Screenshot 2026-03-16 220419-1.png>) 
+![alt text](<Screenshot 2026-03-16 220429-1.png>)
+![alt text](<Screenshot 2026-03-16 220437-1.png>) 
+![alt text](<Screenshot 2026-03-16 220451-1.png>) 
+![alt text](<Screenshot 2026-03-16 220503-1.png>) 
+![alt text](<Screenshot 2026-03-16 220511-1.png>) 
+![alt text](<Screenshot 2026-03-16 220519-1.png>) 
+![alt text](<Screenshot 2026-03-16 220526-1.png>) 
+![alt text](<Screenshot 2026-03-16 220533-1.png>) 
+![alt text](<Screenshot 2026-03-16 220540-1.png>) 
+![alt text](<Screenshot 2026-03-16 220548-1.png>) 
+![alt text](<Screenshot 2026-03-16 220555-1.png>) 
+![alt text](<Screenshot 2026-03-16 220602-1.png>)
+![alt text](<Screenshot 2026-03-16 220610-1.png>) 
+![alt text](<Screenshot 2026-03-16 220615-1.png>) 
+![alt text](<Screenshot 2026-03-16 220402-1.png>)
 
 # Result:
 
